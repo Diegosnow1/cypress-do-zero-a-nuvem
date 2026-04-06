@@ -1,28 +1,31 @@
-# 🌲 Cypress, do Zero à Nuvem ☁️
+# cy-data-test
 
-👋 Seja bem-vindo(a)!
+[![main](https://github.com/wlsf82/cypress-do-zero-a-nuvem/actions/workflows/ci.yml/badge.svg)](https://github.com/wlsf82/cypress-do-zero-a-nuvem/actions)
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai amar esse curso. ❤️
+Projeto de exemplo para demonstrar testes com Cypress no repositório "Cypress, do Zero à Nuvem".
 
-## O que você vai aprender?
+## Pré-requisitos
 
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar upload de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
-- Como executar os testes em um _workflow_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como integrar seu _workflow_ de integração contínua com o Cypress Cloud (o serviço de gestão de testes do Cypress na nuvem)
+É necessário ter Node.js e npm instalados para executar este projeto.
 
-## Vamos começar?
+> Eu usei as versões `v18.15.0` do Node.js e `9.5.0` do npm. Recomendo usar a mesma versão ou uma mais recente.
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+## Instalação
+
+Execute `npm install` (ou `npm i`) para instalar as dependências de desenvolvimento.
+
+## Testes
+
+Execute `npm test` para rodar os testes em modo headless.
+
+Ou execute `npm run cy:open` para abrir o Cypress em modo interativo.
+
+Para rodar os testes em uma viewport de dispositivo móvel, use `npm run test:mobile`.
+
+## Suporte a este projeto
+
+Se você quiser apoiar este projeto, deixe uma ⭐.
 
 ___
 
-Este é um curso da **Escola Talking About Testing**.
+Este projeto foi criado com 💚 por [Diego José](https://github.com/Diegosnow1/cypress-do-zero-a-nuvem.git).
