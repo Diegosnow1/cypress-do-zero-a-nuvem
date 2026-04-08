@@ -8,7 +8,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Cypress run
         env:
-          CYPRESS_RECORD_KEY: ${{ secrets.9b8794df-032f-48f8-8e99-258d12a288c0 }}
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
         with:
           command: npm run test:cloud
 
