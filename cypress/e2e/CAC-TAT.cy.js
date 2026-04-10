@@ -11,7 +11,7 @@ describe('Central de Atendimento ao Cliente TAT', () => {
   it.only('preenche os campos obrigatórios e envia o formulário', () => {
     cy.get('#firstName').type('DIEGO')
     cy.get('#lastName').type('JOSE')
-    cy.get('#email').type('DIEGOSNOWAGORA@GMAIL.COM')
+    cy.get('#email').type('')\\DIEGOSNOWAGORA@GMAIL.COM\\
     cy.get('#open-text-area').type('TESTE')
     cy.contains('button', 'Enviar').click()
 
